@@ -1,7 +1,9 @@
 public class Human {
-	private int skinColour;
+	private int age;
+	private String skinColour;
 
-	public Human(int skinColour) {
+	public Human(int age, String skinColour) {
+		this.age = age;
 		this.skinColour = skinColour;
 	}
 }
